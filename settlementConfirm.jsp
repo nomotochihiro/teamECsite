@@ -39,7 +39,7 @@
 					</tr>
 					<s:iterator value="destinationInfoDTOList" status="st">
 						<tr>
-							<td><s:if test="%{#st.index == 0}">
+							<td style="text-align: center;"><s:if test="%{#st.index == 0}">
 									<input type="radio" name="id" value="<s:property value='id' />"
 										checked="checked" />
 								</s:if> <s:else>
